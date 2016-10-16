@@ -31,10 +31,10 @@ Generally, we hear that we should "mock the database" because it's, slow and too
 Use the real implementation (assuming that your persistence is a reational database) with an abstraction as SQLAlchemy and go with an SQLite backend for testing.
 
 **Benefits**
-    - Speed.
-    - Don't need to maintain two implementations.
-    - A test that's more blackbox, which is generally a good thing.
-    - It's very easy to test all the app with the real backend (MySQL for example) if needed.
+- Speed.
+- Don't need to maintain two implementations.
+- A test that's more blackbox, which is generally a good thing.
+- It's very easy to test all the app with the real backend (MySQL for example) if needed.
 
 ## General Comments
 
